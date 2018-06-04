@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  YN_PassWordView
 //
-//  Created by ijianghu on 2018/6/4.
-//  Copyright © 2018年 ijianghu. All rights reserved.
+//  Created by YN on 2018/6/4.
+//  Copyright © 2018年 YN. All rights reserved.
 //
 
 #import "AppDelegate.h"

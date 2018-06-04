@@ -2,8 +2,8 @@
 //  YN_PassWordView.m
 //  自己玩
 //
-//  Created by ijianghu on 2018/5/11.
-//  Copyright © 2018年 杨楠. All rights reserved.
+//  Created by YN on 2018/5/11.
+//  Copyright © 2018年 YN. All rights reserved.
 //
 
 #import "YN_PassWordView.h"

@@ -2,8 +2,8 @@
 //  YN_PassWordView.h
 //  自己玩
 //
-//  Created by ijianghu on 2018/5/11.
-//  Copyright © 2018年 杨楠. All rights reserved.
+//  Created by YN on 2018/5/11.
+//  Copyright © 2018年 YN. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -21,14 +21,11 @@ typedef void(^textBlock) (NSString *str);
 
 @interface YN_PassWordView : UIView
 @property(nonatomic,strong)UITextField *textF;
-@property(nonatomic,strong)UIColor *tintColor;
-@property(nonatomic,strong)UIColor *textColor;
+@property(nonatomic,strong)UIColor *tintColor;//主题色
+@property(nonatomic,strong)UIColor *textColor;//字体颜色
 @property(nonatomic, copy)textBlock textBlock;
-//@property(nonatomic,assign)passType * passtype;
 @property(nonatomic,assign)passShowType showType;
 @property(nonatomic,assign)NSInteger num;//格子数
-
-
 -(void)show;
 -(void)cleanPassword;
 @end
